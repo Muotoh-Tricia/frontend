@@ -1,10 +1,10 @@
-import axios from 'axios';
+
 
 // Create an Axios instance with base configuration
 const apiClient = axios.create({
   baseURL:
     import.meta.env.VITE_API_BASE_URL ||
-    "backend-production-49f9.up.railway.app",
+    "https://backend-production-49f9.up.railway.app",
   timeout: 10000,
   headers: {
     Accept: "application/json",
